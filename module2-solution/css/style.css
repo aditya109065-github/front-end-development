@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+
+    width: 100%;
+
+}
+
+
+
+
+/* For Desktop */
+.outer-box1,
+.outer-box2,
+.outer-box3 {
+    margin-bottom: 20px;
+    width: 33.33%;
+    float: left;
+}
+
+.inner-box1,
+.inner-box2,
+.inner-box3 {
+    margin: 0px 20px;
+    background-color: #69cadd;
+
+}
+
+
+
+
+
+/* For Tablet */
+@media (min-width:762px) and (max-width:991px) {
+
+    .outer-box1,
+    .outer-box2 {
+        width: 50%;
+        float: left;
+    }
+
+    inner- .outer-box3 {
+        float: left;
+        width: 100%;
+    }
+}
+
+/* For mobile  */
+@media (max-width:761px) {
+
+    .outer-box1,
+    .outer-box2,
+    .outer-box3 {
+        width: 100%;
+        float: left;
+
+    }
+
+
+}
+
+
+p {
+    padding: 10px;
+    clear: right;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 210px;
+
+}
+
+h1 {
+    font-size: uter-60px;
+    font-family: 'Dancing Script', cursive;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h3 {
+    margin: 0px 0px;
+    width: 170px;
+    float: right;
+    border: 2px solid rgb(18, 18, 18);
+    text-align: center;
+    font-size: 27px;
+}
+
+#item1 {
+    background-color: #eded10;
+    color: red;
+}
+
+#item2 {
+    color: white;
+    background-color: #1de194;
+}
+
+#item3 {
+    color: grey;
+    background-color: #25ffff;
+}
