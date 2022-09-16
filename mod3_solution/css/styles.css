@@ -65,9 +65,7 @@ h2 {
     margin-right: 10px;
 }
 
-.item-1,
-.item-2,
-.item-3 {
+.col-xs-12 {
     background-color: #878684;
     padding: 20px;
 }
