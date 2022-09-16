@@ -1,0 +1,86 @@
+/* body  */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/** HEADER **/
+.navbar {
+    padding-bottom: 0;
+    background-color: #878684;
+    border-radius: 0;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+
+}
+
+/* Restaurant name */
+.navbar-brand {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue";
+    font-size: 2em;
+    font-weight: bold;
+    padding-top: 5px;
+    margin-left: 50px;
+}
+
+
+/* toggle-menu  */
+
+/* toggle button */
+.navbar-toggler {
+    margin-right: 10px;
+    border: 2px solid black;
+}
+
+a.nav-link {
+    color: black;
+}
+
+ul li {
+    font-size: 1.5em;
+    font-weight: bolder;
+    border-bottom: 2px solid black;
+}
+
+.navbar>.container-fluid {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+/* end of navbar  */
+
+/* main content  */
+
+h2 {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.container-fluid {
+    width: 98%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.item-1,
+.item-2,
+.item-3 {
+    background-color: #878684;
+    padding: 20px;
+}
+
+/* for toggle menu  */
+@media (max-width:768px) {
+    #navbar-menu {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 5px;
+        border-top: 2px solid black;
+        border-left: 2px solid black;
+        border-right: 2px solid black;
+
+    }
+}
